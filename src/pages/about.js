@@ -1,20 +1,16 @@
 import * as React from 'react'
+import Layout from '../components/layout'
+
 
 const AboutPage = () => {
     return (
-        <main>
-            <h2>about me!</h2>
-            <p> hulo I am creatin this site</p>
-        </main>
+    <Layout pageTitle='About Me'>
+        <p> this is the about me</p>
+      </Layout>
     )
 }
 
-export const Head = () =>(
-        <>
-            <title>about Ali</title>
-            <meta name='description' content='desc'/>
-        </>
-)
+export const Head = () => <title>About Me</title>
 
 
 export default AboutPage

@@ -1,12 +1,12 @@
 import * as React from 'react'
+import Layout from '../components/layout'
 
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1> hi friend </h1>
-      <p> this is a tutorial</p>
-    </main>
+    <Layout pageTitle='Home Page'>
+      <p> this is following the tutu I found</p>
+    </Layout>
   )
 }
 
